@@ -1,35 +1,171 @@
 body {
     display: flex;
     flex-direction: column;
-
+    margin: 0;
 }
 
-header {
+.header {
+    display: flex;
     flex: initial;
-    height: 800px;
+    height: 650px;
     background-color: #1F2937;
+    justify-content: center;
 }
 
-section1{
+.header_container {
     flex: initial;
-    height:800px;
+    width: 900px;
+}
+.navbar {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar div {
+    font-size: 24px;
+    color: white;
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.navbar a, #under_title{
+    font-size: 18px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#title_text {
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+}
+
+.intro_content {
+    display: flex;
+    flex-direction: column;
+    flex: initial;
+    width: 300px;
+    gap: 20px
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: #3883F6;
+    border-radius: 12px;
+    border: #E5E7EB;
+    color: white;
+    font-size: 18px;
+}
+
+.section1{
+    flex: initial;
+    padding: 100px;
     background-color: white;
+    justify-content: center;
 }
 
-section2{
+#random_text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.picture_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.item {
     flex: initial;
-    height:800px;
+    width: 200px;
+}
+
+.section2{
+    display:flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    gap: 20px;
+    flex: initial;
+    align-items: center;
+    justify-content: center;
+    padding:100px;
 }
 
-section3{
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
     flex: initial;
-    height:800px;
+}
+
+.person {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.section3{
+    display: flex;
+    flex: initial;
+
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
 }
 
-footer {
+.actioncall {
+    background-color: #1F2937;
+    padding: 200px 300px;
+    display: flex;
     flex: initial;
-    height:800px;
+    gap: 30px;
+    border-radius: 12px;
+}
+
+#time {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+#timesub {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: initial;
+    padding: 50px 300px;
     background-color: #1F2937;
 }
+
+.footer div{
+    color: white
+}
+
