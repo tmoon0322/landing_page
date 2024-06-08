@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    flex: initial;
+    height: 800px;
+    background-color: #1F2937;
+}
+
+section1{
+    flex: initial;
+    height:800px;
+    background-color: white;
+}
+
+section2{
+    flex: initial;
+    height:800px;
+    background-color: #E5E7EB;
+}
+
+section3{
+    flex: initial;
+    height:800px;
+    background-color: white;
+}
+
+footer {
+    flex: initial;
+    height:800px;
+    background-color: #1F2937;
+}
